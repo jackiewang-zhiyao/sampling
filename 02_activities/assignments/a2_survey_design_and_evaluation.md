@@ -40,26 +40,32 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#3`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
-```
+```The purpose of this survey is to understand the relationship between age and music taste, particularly how people of different ages perceive popular music. The survey will examine both generational differences in music perferences and how individuals' own tastes have changed over time. The results could help identify whether age affects music taste through life experience, exposure to different genres, or atttitudes toward current popular music. 
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
-```
+``` 
+Target population: people in different age groups who listen to music; those who in Toronto or have connection with University of Toronto community. 
+Sampling frame: University of Toronto students, staff, faculty, alumni, and community members who can be reached through university email lists, social media, or community networks. 
+Sampling units: individual who selected to complete the survey. 
+Observational unit: individual respondents. 
+The sampling strategy will be stratified sampling by age group, such as 18-29, 30-44, 45-49, and 60+. This will allow the survey to include respondents from different age group and prevent having mostly young adults. 
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
+1. What is your age? A. Under 18 B. 18-29 C. 30-44 D. 45-59 E. 60+
+2. How often do you listen to music? A. Daily B. A few times per week C. A few times per month D. Rarely E. Never
+3. What music genres do you often listen to? A.pop B. rock C.R&B D.country E.Jazz F.Other:__
+4. How much do you enjoy current popular music? A.very much B. somewhat C. neutral D. not very much
+5. Compared with when you were younger, how much has your musci taste changed? A. A lot B. Somewhat C. About the same D. Not sure
+6. Do you think popular music today is as good as the popular music from years age? A.strongly agree B.agree C.neutral D.disagree E.strongly disagree
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
@@ -73,6 +79,35 @@ Identify and describe survey features:
 ```
 write your answer here
 ```
+1. Sample type: 2018 GSS GVP was a cross-sectional survey. It used stratified probability sample. It also included rejective sampling/sub-sampling, where all identified volunteers completed the long interview, while non-volunteers were divided into groups, with some completing a long interview and others with short interview. 
+
+2. Sample size: The survey used a field sample of about 50,000 units. About 40,000 invitation letters were sent to households across Canada, and about 24,000 completed questionnaires were expected.  From another source (ODESI document), it says target sample size was 20,000 respondents, excluding "rejected" respondents. 
+
+3. Target population: the target population was persons aged 15 years and older living in the ten provinces of Canada. The survey excluded full time residents of institutions, defined as those residing in institutions for more than 6 months. Also, residents of Yukon, Northwest Territories, and Nunavut were also excluded. 
+
+4. Sampling frame: combined landline and cellular telephone numbers from the census and administrative sources with Statistics Canada's dwelling frame. Records on the frame were groups of one or more telephone numbers associated with the same address, or a single telephone number when an address lnk could not be established. This frame was used to improve household coverage among households with telephone numbers. 
+
+5. Survey mode(s): Data were collected directly from respondents using either an electronic questionnaire or computer-assisted telephone interviewing (CATI). Proxy responses were not allowed, and respondents could complete the survey in either Engligh or French. The average completion time was estimated at 44 mins. 
+
+6. Timeline: teh survey was the past 12 months preceding the interview date. Data collection took place from Sep 4, 2018 to Dec 28, 2018. The data were released on Jan 26, 2021. 
+
+7. Response rate: overall the rate was 41.9%. 
+
+8. Weights: The survey provided a person-level weighting variable, WGHT_PER, which allows analysts to estimate the number of people in the population with specific characteristics. Bootstrap weights were also created for design-based variance estimation. Weights were adjusted to account for rejective sampling, non-response, and population characteristics such as age-sex groups by province. 
+
+9. Data processing: Processed using Social Survey Processing Environment (SSPE). Data edits were performed automatically and manually at multiple stages, including family, consistency, and flow edits. The CATI system checked valid ranges, built-in edits, and questionnaire flow during the interview, while head office reviewed interviewer commemts and performed additional checks. 
+
+10. Cleaning, imputation, etc: Missing or incomplete responses were generally handled using donor imputation, where similar donor records were selected to fill in missing values. When donor imputation could not be used, mean imputation was applied. Imputation was completed in several steps, including personal and family income, formal colunteering variables, informal volunteering variabels, donation variables, and solicitation methods. Income information data were obtained from the 2017 T1 family file for 81.9% of respondents, and family income was obtained for 81l7% of households. 
+
+11. Sources of error: subject to both sampling error and non-sampling error. Sampling error occurs because the survey is based on a sample rather than a full census. Non-samping errors included coverage error, non-response error, response error, and processing serror. Statistics Canada used boostrap weights to estimate sampling variability. 
+
+12. Limitations, known biases, etc: one biases is that households without telephones, or with telephone services not covered by the sampling frame, were excluded from the survey population. This could create coverage bias if excluded households differed from included households. Non-response was another possible biass, even with adjusted survey weights to account for non-response. A limitation is that 2018 estimates can't be directly compared with previous cycles because 2018 cycle introduced internet questionnaires, which may affect estimates. 
+
+13. Link to documentation and any additional sources used:
+1) https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+2) https://www.sgs.utoronto.ca/awards/sgs-conference-grant/
+3) https://odesi.ca/en/details?id=/odesi/doi__10-5683_SP3_U1AYY0.xml 
+
 
 ## Rubric
 
